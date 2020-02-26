@@ -1,0 +1,18 @@
+1. player starts with a zero balance
+	>initialize double variable at 0
+
+2. player will toss four coins - penny, nickel, dime, and quarter. one each.
+	>each denomination will require its own class. 
+		>>just a class to redeclare a value variable? ex. double coinWorth = 0.01 for penny and so forth
+		>>class will return a value previously stated
+
+3. value of coin is added to user's balance IF it lands on heads
+	>separate class here to determine whether the coin lands on heads or not
+		>>use math class and random method to generate result
+	>if the result is heads, add the coin's value to the user's balance. 
+
+4. the game will repeat until the user reaches or exceeds $1
+	>depending on which result is reached, the program will exit to the menu displaying a success or failure message.
+
+5. the game will repeat until the user is tired of playing
+	>use a while loop with the majority of the program nested and only exit when the user selects the exit option on the menu
