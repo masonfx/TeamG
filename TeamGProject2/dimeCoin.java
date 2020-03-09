@@ -1,7 +1,7 @@
 package TeamGProject2;
 
 public class dimeCoin {
-    static double setWorth()
+    static double getWorth()
     {
         return 0.10;
     }

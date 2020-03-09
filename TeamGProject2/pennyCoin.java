@@ -1,7 +1,7 @@
 package TeamGProject2;
 
 public class pennyCoin {
-    static double setWorth()
+    static double getWorth()
     {
         return 0.01;
     }
